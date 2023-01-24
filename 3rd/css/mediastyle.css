@@ -1,0 +1,38 @@
+@media(max-width: 600px) {
+    .toggle {
+        display: flex;
+    }
+
+    nav ul li a {
+        /* display: none; */
+        width: 80%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+        margin-left :20px; 
+        align-items: center;
+    }
+
+    .navbar-links li {
+        align-items: center;
+       
+        
+    }
+
+    .navbar-links li a {
+        padding: 8px;
+        
+    }
+
+    .navbar-links:active {
+        display: flex;
+    }
+}
